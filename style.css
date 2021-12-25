@@ -59,6 +59,12 @@ hr{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+@media only screen and(max-width: 992px){
+    #about > h5{
+     line-height: 0px;
+ }
+    }
+
 .navbar-light .navbar-nav .nav-item .nav-link{
     padding: 0 20px;
     color: black;
@@ -106,6 +112,12 @@ hr{
     }
     #navbarSupportedContent > ul > li:nth-child(n) > a{
         padding: 10px 0;
+    }
+    body > footer > div.copyright.mt-5 > div > div:nth-child(1){
+        text-align: center;
+    }
+    body > footer > div.copyright.mt-5 > div > div:nth-child(3){
+        text-align: center;
     }
 }
 
@@ -317,7 +329,7 @@ footer .copyright a{
     margin: 0 5px;
 }
 
-body > footer > div.copyright.mt-5 > div > div:nth-child(2) > a:hover{
+body > footer > div.copyright.mt-5 > div > div:nth-child(3) > a:hover{
     background: white;
     transform: scale(1.2);
 }
